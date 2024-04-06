@@ -1,0 +1,39 @@
+name: weathervile
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  geolocator: ^11.0.0
+  google_fonts: ^6.2.1
+  http: ^1.2.1
+  intl: ^0.19.0
+  worldtime: ^1.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/night.jpg  
+    - assets/images/evening.jpg 
+    - assets/images/morning.jpg 
+    - assets/images/noon.jpg 
+    - assets/weather_icon/rain.png 
+    - assets/weather_icon/cloudly_sunny.png 
+    - assets/weather_icon/cloudy_night.png 
+    - assets/weather_icon/cloudy.png 
+    - assets/weather_icon/night.png 
+    - assets/weather_icon/snow.png 
+    - assets/weather_icon/sunny.png 
+    - assets/weather_icon/thunder_rain.png 
+    - assets/weather_icon/wind.png 
+
